@@ -71,7 +71,6 @@ def pairs(ar):
         tup = (ar[i], ar[i+1])
         print(tup)
         if abs(tup[1] - tup[0]) == 1:
-            print("TAK")
             coun += 1
     return coun
     
