@@ -84,15 +84,15 @@ def pairs(ar):
 # print(pairs([1,2,5,8,-4,-3,7,6,5]))
 
 # GCD sum______________________________________
-# def solve(s,g):
-#     num2 = s-g
-#     if num2 % g == 0:
-#         return g, num2
-#     else:
-#         return -1
+def solve(s,g):
+    num2 = s-g
+    if num2 % g == 0:
+        return g, num2
+    else:
+        return -1
 
-# def solve2(s,g):
-#     return (g, s-g) if (s-g) % g == 0 else -1
+def solve2(s,g):
+    return (g, s-g) if (s-g) % g == 0 else -1
 # print(solve(12,4))
 
 # # solution from CodeWars
