@@ -1,3 +1,12 @@
+
+# There are my solutions of CodeWars' problems.
+# It also contains interesting other people's suggestions
+# from this site (all of those are marked).
+# There is indicated specific level of exercises.
+# 1kyu is the hardest, 8kyu is the weakest.
+
+
+###### 7kyu
 # Validate PIN________________________________
 def validate_pin(pin):
     return (len(pin) == 4 or len(pin) == 6 ) and pin.isdigit()
@@ -74,5 +83,5 @@ def pairs(ar):
             coun += 1
     return coun
     
-print(pairs([1,2,5,8,-4,-3,7,6,5]))
+# print(pairs([1,2,5,8,-4,-3,7,6,5]))
 
