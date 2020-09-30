@@ -57,7 +57,6 @@ def sayMeOperations(stringNumbers):
             str_ += "division"
         if i != (len(list_numbers)-3):
              str_ += ", "
-    
     return str_
 
 # Somebody's interesting solution (from CodeWars)
