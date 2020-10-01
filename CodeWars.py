@@ -99,3 +99,15 @@ def solve2(s,g):
 # def solve(s,g):
 #     return -1 if s % g else (g, s - g)
 #______________________________________________
+
+#Reverse Letter________________________________
+def reverse_letter(string):
+    str_ = ""
+    for letter in string:
+        if letter.isalpha():
+            str_ += letter
+    return str_[::-1]
+    
+def reverse_letter2(s):  #CodeWars
+  return ''.join([i for i in s if i.isalpha()])[::-1]    
+#______________________________________________
