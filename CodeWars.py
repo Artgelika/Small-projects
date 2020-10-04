@@ -5,6 +5,28 @@
 # 1kyu is the hardest, 8kyu is the weakest.
 
 
+
+
+###### 6kyu
+# What century it is__________________________
+def what_century(year):
+    st = ""
+    if year[0] == '1':
+        st = 'th'
+    elif year[1] == '0':
+        st = "st"
+    elif year[1] == '1':
+        st = "nd"
+    elif year[1] == '2':
+        st = "rd"
+    else: st = "th"
+        
+    if year[2:] == '00':
+        return str( int(year[:2])) + "th"
+        
+    return str( int(year[:2]) + 1) + st
+#_____________________________________________
+
 ###### 7kyu
 # Validate PIN________________________________
 def validate_pin(pin):
