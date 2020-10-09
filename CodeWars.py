@@ -28,6 +28,13 @@ def what_century(year):
 #_____________________________________________
 
 ###### 7kyu
+# Right in the Centre_________________________
+# is 'abc' in the centre of string?
+def is_in_middle(sequence):
+    prefix = (len(sequence) - 3)//2
+    new_seq = sequence[prefix:-prefix-1]
+    return "ab" in new_seq 
+
 # Validate PIN________________________________
 def validate_pin(pin):
     return (len(pin) == 4 or len(pin) == 6 ) and pin.isdigit()
