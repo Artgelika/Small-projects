@@ -8,6 +8,25 @@
 
 
 ###### 6kyu
+# Weird IPv6 hex string parsing_______________
+# IN - "ACDD-0101-9ABC-AAAA-FFFF-2222-FBDE-ACCC"
+# OUT - "48242406085346"
+def parse_IPv6(iPv6):
+    tik = iPv6[4]
+    list_split = iPv6.split(tik)
+    list_of_list = []
+    for element in list_split:
+        temp = []
+        for el in element:
+            temp.append(int(el, 16))
+        list_of_list.extend([temp])
+
+    list_of_list = [sum(elem) for elem in list_of_list]
+    sum_ = ""
+    for el in list_of_list:
+        sum_ += str(el)
+    return sum_
+
 # What century it is__________________________
 def what_century(year):
     st = ""
