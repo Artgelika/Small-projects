@@ -6,4 +6,4 @@ There will be my suggestions for solutions of CodeWars' exercises.
 There's a link thanks to which you can be my friend on this website.
 www.codewars.com/r/FGUf7w
 
-2. Art in Python using turtle library
+2.Art in Python using turtle library
