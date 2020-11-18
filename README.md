@@ -1,4 +1,4 @@
-# Repo including different one-script projects in Python
+# Repo including different one-script projects in Python and C++
 
 1.CodeWars-Exercises
 There will be my suggestions for solutions of CodeWars' exercises.
